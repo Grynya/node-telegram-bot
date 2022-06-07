@@ -5,7 +5,7 @@ const token = '5306466810:AAEZDUaSuG_WSofcVJWs80KY5OnopsOD04M';
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
-
+//test
 // Matches "/echo [whatever]"
 bot.onText(/\/echo (.+)/, (msg, match) => {
     // 'msg' is the received Message from Telegram
